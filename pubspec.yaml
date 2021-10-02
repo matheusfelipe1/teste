@@ -1,0 +1,82 @@
+name: joinder_app
+description: A new Flutter project.
+
+version: 1.0.8+25
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Crash Control
+  sentry: ">=3.0.0 <4.0.0"
+  # Essentials
+  cupertino_icons: ^0.1.2
+  mobx: ^1.0.2
+  flutter_mobx: ^1.0.1
+  flutter_modular: ^2.0.1
+  meta: ^1.1.8
+  dio: ^3.0.9
+  package_info: ^0.4.0+14
+  device_info: ^0.4.2+4
+  connectivity: ^0.4.8+6
+  mask_text_input_formatter: ^1.0.6
+  flutter_typeahead: ^1.8.0
+  pin_code_fields: ^3.0.0
+  flutter_tags: ^0.4.8
+  icon_shadow: ^1.0.1
+  image_picker: ^0.6.2+1
+  cached_network_image: ^2.2.0
+  shared_preferences: ^0.5.7+2
+  uuid: ^2.0.4
+  flutter_html: ^1.0.0
+  location: ^3.0.2
+  intl: ^0.16.1
+  http: ^0.12.2
+
+  # Facebook
+  flutter_facebook_login: ^3.0.0
+  # Firebase
+  firebase_core: ^0.4.4+3
+  firebase_auth: ^0.15.5+2
+  firebase_storage: ^3.1.5
+  firebase_database: ^3.1.6
+  firebase_messaging: ^6.0.16
+
+dev_dependencies:
+  mockito: ^4.1.1
+  mobx_codegen: ^1.0.2
+  build_runner: ^1.7.4
+  flutter_launcher_icons: "^0.8.0"
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icone_1024_x_1024.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/icone_1024_x_1024.png
+
+  fonts:
+    - family: Shink
+      fonts:
+        - asset: assets/fonts/Shink.otf
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 900
+
+scripts:
+  watch: flutter pub run build_runner watch --delete-conflicting-outputs
+  clean: flutter pub run build_runner clean
+  build: flutter pub run build_runner build --delete-conflicting-outputs

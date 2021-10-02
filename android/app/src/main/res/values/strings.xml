@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Joinder.me</string>
+    <string name="facebook_app_id">309058803414435</string>
+    <string name="fb_login_protocol_scheme">fb309058803414435</string>
+</resources>

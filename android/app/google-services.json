@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "736186253601",
+    "project_id": "joinprod-321818",
+    "storage_bucket": "joinprod-321818.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736186253601:android:2211bb715e841292ba3e60",
+        "android_client_info": {
+          "package_name": "br.com.mobilus.joinderApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736186253601-b0scvtad918n450ha6dm7vg2ts38rpdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsvhZ1o2S6kD7zvzNwir7guTdktMs_RdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736186253601-b0scvtad918n450ha6dm7vg2ts38rpdg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "736186253601-fektj0vqgs6ia30600cdg9f5780f621o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.mobilus.joinderApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
